@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    position: relative;
+}
+.banner > img{
+    width: 1903px;
+    height: 808px;
+}
+.title{
+    position: absolute;
+    top: 216px;
+    right: 230px;
+}
+.title2{
+    position: absolute;
+    top: 468px;
+    right: 230px;
+}
+a{
+    position: absolute;
+    top: 578px;
+    right: 230px;
+}
+.banner > .title{
+    width: 525px;
+    color: #151414;
+    text-align: right;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 65px;
+    font-weight: 700;   
+}
+.banner > .title2{
+    width: 494px;
+    color: #444343;
+    text-align: right;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.banner > a{
+    text-align: right;
+    text-decoration: none;
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 25px 20px 26px;
+}
+/* Main section started */
+/* Section 1 started */
+.sec-1{
+    display: flex;
+}
+.sec-1 > img{
+    margin: 100px 0px 50px 228px;
+}
+.text-container{
+    /* margin: 370px 370px 24px 106px; */
+}
+.text-container > .tt{
+    width: 288px;
+    color: #151414;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 370px 450px 24px 106px;
+}
+.text-container > .des{
+    width: 416px;
+    color: #444343;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0px 322px 16px 106px;
+    /* padding: 24px 30px 20px 0px; */
+}
+.text-container > ul{
+    list-style: none;
+}
+ul{
+    display: flex;
+    color: #444343;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 389px 8px 106px;
+}
+span{
+    color: green;
+    padding-right: 5px;
+}
+/* Section 2 started */
+.sec-2 > .sec-2-title{
+    color: #151414;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.colum-container{
+    display: flex;
+    gap: 70px;
+    margin-left: 390px;
+    margin-bottom: 70px;
+}
+.column > .img-title{
+    color: #151414;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.column > .sub-title{
+    color: #737272;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+.column > .image{
+    padding-left: 90px;
+}
+.column > .image-t{
+    padding-left: 30px;
+}
+.column > .image-th{
+    padding-left: 60px;
+}
+.column > .image-f{
+    padding-left: 40px;
+}
+/* Section 3 started */
+.container{
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('Media/images/watch.png');
+    margin: 100px 360px 100px;
+}
+.container > .tit{
+    width: 459px;
+    color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 59px 0px 0px 64px;
+}
+.container > button{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 21px 36px 20px;
+    margin: 24px 0px 59px 65px;
+}
