@@ -19,7 +19,7 @@
     top: 468px;
     right: 230px;
 }
-a{
+.contact a{
     position: absolute;
     top: 578px;
     right: 230px;
@@ -41,7 +41,7 @@ a{
     font-weight: 400;
     line-height: 26px;
 }
-.banner > a{
+.contact > a{
     text-align: right;
     text-decoration: none;
     border-radius: 5px;
@@ -171,13 +171,12 @@ span{
 /* Footer Section Start */
 footer{
     display: flex;
-    gap: 900px;
     width: 1903px;
     height: 577px;
     background: #151414;
 }
 .columm > .ttl{
-    margin: 130px 0px 0px 230px;
+    margin: 130px 0px 0px 360px;
     color: #F8F8F8;
     font-family: 'Work Sans', sans-serif;
     font-size: 45px;
@@ -188,7 +187,7 @@ footer{
     font-family: 'Work Sans', sans-serif;
     font-size: 25px;
     font-weight: 700;
-    margin: 130px 90px 0px 0px;
+    margin: 130px 90px 0px 350px;
 }
 .columm > .decs{
     width: 485px;
@@ -197,14 +196,14 @@ footer{
     font-weight: 400;
     line-height: 26px;
     font-family: 'Work Sans', sans-serif;
-    padding: 16px 0px 24px 230px;
+    padding: 16px 0px 24px 360px;
 }
-.columm > .email{
+.columm > .email-one{
     color: #FFF;
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    padding-left: 230px;
+    padding-left: 360px;
     padding-bottom: 16px;
 }
 .columm > .phone{
@@ -212,6 +211,46 @@ footer{
     font-size: 16px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    padding-left: 230px;
+    padding-left: 360px;
     padding-bottom: 32px;
+}
+.social-links img{
+    display: flex;
+}
+.columm .email{
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    color:#F3F3F3;
+    background-color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 31px;
+    margin-left: 360px;
+    padding-left: 10px;
+}
+.columm .Subscribe{
+    width: 171px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    color: #F15B22;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid gray;
+    margin-left: 360px;
+    margin-top: 36px;
+}
+.columm .Subscribe:hover{
+    background-color: red;
+    color: white;
+}
+.social{
+    margin-left: 360px;
+}
+.social > a{
+    padding-right: 15px;
 }
